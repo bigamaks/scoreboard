@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="home">
+            <h3>HOME</h3>
+            <div class="black-board">
+                <p id="display-one">0</p>
+            </div>
+            <div class="score-btn"> 
+                <button onclick="btnone()">+ 1</button>
+                <button onclick="btntwo()">+ 2</button>
+                <button onclick="btnthree()">+ 3</button>
+            </div>
+        </div>
+        <div class="guest">
+            <h3>GUEST</h3>
+            <div class="white-board">
+                <p id="display-two">0</p>
+            </div>
+            <div class="score-btn-two">
+                <button onclick="btnfour()">+ 1</button>
+                <button onclick="btnfive()">+ 2</button>
+                <button onclick="btnsix()">+ 3</button>
+            </div>
+        </div>
+    </div>
+        <button class="newgame" onclick="newGame()">New Game</button>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
